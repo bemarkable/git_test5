@@ -15,16 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React 123 !@#!@#! @#!@#!@#!@
-          ㅈㄷㅇ
-          ㄹ
-          ㄴㅇ
-          ㄹㅁㅇㄹㅎㅇㄴ러허ㅏㅇ노러ㅏ헝ㄹ;ㅎㅁㅇㄹ;ㅎㅁㄴㅇ
-          ㄹㅁㅇ로 ㅏㅎㅇㄱㄹㅎ
-          ㅇㄴㄹ허ㅣㅇ라농ㄱㄹ\홀호ㅓ ㅇ
-          ㄹㅎㄹ허ㅗ'ㄴㅇ
-          ㄱㅎㅇㄹ노ㅜㅎ
-          
+          Learn React
         </a>
       </header>
     </div>
