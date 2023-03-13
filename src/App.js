@@ -16,6 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React 이제 됐나?
+          정말 힘들구먼
         </a>
       </header>
     </div>
