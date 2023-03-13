@@ -17,6 +17,7 @@ function App() {
         >
           Learn React 이제 됐나?
           정말 힘들구먼
+          정말 됐지?
         </a>
       </header>
     </div>
