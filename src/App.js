@@ -15,9 +15,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React 이제 됐나?
-          정말 힘들구먼
-          정말 됐지?
+          Learn React 이제 됐나?<br/>
+          정말 힘들구먼<br/>
+          정말 됐지?<br/>
+          123
         </a>
       </header>
     </div>
