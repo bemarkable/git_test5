@@ -1,7 +1,17 @@
+import {useEffect, useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const [thisPort, setThisPort] = useState(0)
+  useEffect(() => {
+    console.log(`${process.env.REACT_APP_PORT}`)
+    setThisPort(process.env.REACT_APP_PORT)
+    return () => {
+      console.log('a');
+    }
+  }, [])
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -18,7 +28,8 @@ function App() {
           Learn React 이제 됐나?<br/>
           정말 힘들구먼<br/>
           정말 됐지?<br/>
-          123
+          123<br/>
+          {thisPort}
         </a>
       </header>
     </div>
