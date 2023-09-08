@@ -1,3 +1,3 @@
 export default function Page() {
-    return <h1>Hello, Next.js2</h1>
+    return <h1>Hello, Next.js3</h1>
 }
