@@ -14,7 +14,9 @@ const columns: GridColDef[] = [
 
 export default function App() {
   return (
+
     <div style={{ height: 300, width: '100%' }}>
+      <a href='sub1'>SUB</a>
       <DataGrid rows={rows} columns={columns} />
       123123
     </div>
