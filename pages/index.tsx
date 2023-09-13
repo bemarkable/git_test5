@@ -16,7 +16,7 @@ export default function App() {
   return (
 
     <div style={{ height: 300, width: '100%' }}>
-      <a href='sub1'>SUB</a>
+      <a href='sub1'>SUB</a><br/>
       <a href='sub'>SUB1</a>
       <DataGrid rows={rows} columns={columns} />
       123123
