@@ -16,6 +16,7 @@ export default function App() {
   return (
     <div style={{ height: 300, width: '100%' }}>
       <DataGrid rows={rows} columns={columns} />
+      123123
     </div>
   );
 }
