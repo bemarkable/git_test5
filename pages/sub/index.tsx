@@ -11,6 +11,7 @@ export default function ToolbarGrid() {
 
   return (
     <div style={{ height: 400, width: '100%' }}>
+      <a href='/'>HOME</a>
       <DataGrid
         {...data}
         slots={{
