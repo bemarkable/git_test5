@@ -16,10 +16,10 @@ export default function App() {
   return (
 
     <div style={{ height: 300, width: '100%' }}>
-      <a href='sub1'>SUB</a><br/>
-      <a href='sub'>SUB1</a><br/>
-      <a href='sub2'>SUB2</a><br/>
-      <a href='sub3'>SUB3</a>
+      <a href='sub1' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB</a>
+      <a href='sub' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB1</a>
+      <a href='sub2' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB2</a>
+      <a href='sub3' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB3</a>
       <DataGrid rows={rows} columns={columns} />
       123123
     </div>

@@ -217,32 +217,33 @@ export default function FullFeaturedCrudGrid() {
 
   return (
     <Box
-      sx={{
-        height: 500,
-        width: '100%',
-        '& .actions': {
-          color: 'text.secondary',
-        },
-        '& .textPrimary': {
-          color: 'text.primary',
-        },
-      }}
-    >
-      <DataGrid
-        rows={rows}
-        columns={columns}
-        editMode="row"
-        rowModesModel={rowModesModel}
-        onRowModesModelChange={handleRowModesModelChange}
-        onRowEditStop={handleRowEditStop}
-        processRowUpdate={processRowUpdate}
-        slots={{
-          toolbar: EditToolbar,
+        sx={{
+            height: 500,
+            width: '100%',
+            '& .actions': {
+            color: 'text.secondary',
+            },
+            '& .textPrimary': {
+            color: 'text.primary',
+            },
         }}
-        slotProps={{
-          toolbar: { setRows, setRowModesModel },
-        }}
-      />
+        >
+            <a href='/'>HOME</a>
+        <DataGrid
+            rows={rows}
+            columns={columns}
+            editMode="row"
+            rowModesModel={rowModesModel}
+            onRowModesModelChange={handleRowModesModelChange}
+            onRowEditStop={handleRowEditStop}
+            processRowUpdate={processRowUpdate}
+            slots={{
+            toolbar: EditToolbar,
+            }}
+            slotProps={{
+            toolbar: { setRows, setRowModesModel },
+            }}
+        />
     </Box>
   );
 }

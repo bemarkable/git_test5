@@ -11,7 +11,8 @@ export default function ColumnOrderingGrid() {
 
   return (
     <div style={{ height: 400, width: '100%' }}>
-      <DataGridPro {...data} />
+        <a href='/'>HOME</a>
+        <DataGridPro {...data} />
     </div>
   );
 }
