@@ -20,6 +20,7 @@ export default function App() {
       <a href='sub' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB1</a>
       <a href='sub2' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB2</a>
       <a href='sub3' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB3</a>
+      <a href='sub4' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB4</a>
       <DataGrid rows={rows} columns={columns} />
       3
     </div>
