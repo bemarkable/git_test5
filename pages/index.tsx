@@ -1,4 +1,6 @@
 import * as React from 'react';
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
 import { DataGrid, GridRowsProp, GridColDef } from '@mui/x-data-grid';
 
 const rows: GridRowsProp = [
@@ -16,12 +18,16 @@ export default function App() {
   return (
 
     <div style={{ height: 300, width: '100%' }}>
-      <a href='sub1' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB</a>
-      <a href='sub' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB1</a>
-      <a href='sub2' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB2</a>
-      <a href='sub3' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB3</a>
-      <a href='sub4' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB4</a>
-      <a href='sub5' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB5</a>
+      <ButtonGroup variant="contained" aria-label="outlined primary button group" style={{ marginBottom: '20px' }}>
+        <Button variant="outlined" href="/">HOME</Button>
+        <Button href="sub1">SUB</Button>
+        <Button href="sub">SUB1</Button>
+        <Button href="sub2">SUB2</Button>
+        <Button href="sub3">SUB3</Button>
+        <Button href="sub4">SUB4</Button>
+        <Button href="sub5">SUB5</Button>
+        <Button href="sub6">SUB6</Button>
+      </ButtonGroup>
       <DataGrid rows={rows} columns={columns} />
 
     </div>

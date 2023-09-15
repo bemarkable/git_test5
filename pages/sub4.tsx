@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
 import AddIcon from '@mui/icons-material/Add';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteOutlined';
@@ -228,7 +229,16 @@ export default function FullFeaturedCrudGrid() {
             },
         }}
     >
-        <a href='/'>HOME</a>
+        <ButtonGroup variant="contained" aria-label="outlined primary button group" style={{ marginBottom: '20px' }}>
+            <Button href="/">HOME</Button>
+            <Button href="sub1">SUB</Button>
+            <Button href="sub">SUB1</Button>
+            <Button href="sub2">SUB2</Button>
+            <Button href="sub3">SUB3</Button>
+            <Button variant="outlined" href="sub4">SUB4</Button>
+            <Button href="sub5">SUB5</Button>
+            <Button href="sub6">SUB6</Button>
+        </ButtonGroup>
         <DataGrid
             rows={rows}
             columns={columns}
