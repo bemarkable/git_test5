@@ -231,8 +231,8 @@ export default function FullFeaturedCrudGrid() {
         >
         <ButtonGroup variant="contained" aria-label="outlined primary button group" style={{ marginBottom: '20px' }}>
             <Button href="/">HOME</Button>
-            <Button href="sub1">SUB</Button>
-            <Button href="sub">SUB1</Button>
+            <Button href="sub">SUB</Button>
+            <Button href="sub1">SUB1</Button>
             <Button href="sub2">SUB2</Button>
             <Button variant="outlined" href="sub3">SUB3</Button>
             <Button href="sub4">SUB4</Button>

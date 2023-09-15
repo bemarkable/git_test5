@@ -53,8 +53,8 @@ export default function DataGridDemo() {
     <Box sx={{ height: 400, width: '100%' }}>
         <ButtonGroup variant="contained" aria-label="outlined primary button group" style={{ marginBottom: '20px' }}>
             <Button href="/">HOME</Button>
-            <Button variant="outlined" href="sub1">SUB</Button>
-            <Button href="sub">SUB1</Button>
+            <Button href="sub">SUB</Button>
+            <Button variant="outlined" href="sub1">SUB1</Button>
             <Button href="sub2">SUB2</Button>
             <Button href="sub3">SUB3</Button>
             <Button href="sub4">SUB4</Button>
