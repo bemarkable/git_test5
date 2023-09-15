@@ -23,7 +23,7 @@ export default function App() {
       <a href='sub4' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB4</a>
       <a href='sub5' style={{ display:'inline-block', width: '50px', textAlign:'center' }}>SUB5</a>
       <DataGrid rows={rows} columns={columns} />
-      3
+
     </div>
   );
 }
