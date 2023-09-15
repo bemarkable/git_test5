@@ -1,12 +1,12 @@
 {
-  "/": "pages/index.html",
   "/_app": "pages/_app.js",
-  "/sub1": "pages/sub1.html",
+  "/": "pages/index.html",
   "/_error": "pages/_error.js",
-  "/sub3": "pages/sub3.html",
-  "/sub5": "pages/sub5.html",
+  "/sub1": "pages/sub1.html",
   "/sub": "pages/sub.html",
   "/sub2": "pages/sub2.html",
+  "/sub5": "pages/sub5.html",
+  "/sub3": "pages/sub3.html",
   "/sub4": "pages/sub4.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
