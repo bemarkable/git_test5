@@ -1,6 +1,5 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import ButtonGroup from '@mui/material/ButtonGroup';
+
 import { DataGrid, GridRowsProp, GridColDef } from '@mui/x-data-grid';
 
 const rows: GridRowsProp = [
@@ -17,19 +16,15 @@ const columns: GridColDef[] = [
 export default function App() {
   return (
 
-    <div style={{ height: 300, width: '100%' }}>
-      <ButtonGroup variant="contained" aria-label="outlined primary button group" style={{ marginBottom: '20px' }}>
-        <Button variant="outlined" href="/">0</Button>
-        <Button href="sub">1</Button>
-        <Button href="sub1">2</Button>
-        {/* <Button href="sub2">3</Button> */}
-        <Button href="sub3">3</Button>
-        <Button href="sub4">4</Button>
-        {/* <Button href="sub5">SUB5</Button>
-        <Button href="sub6">SUB6</Button> */}
-      </ButtonGroup>
+    <div style={{ height: 'auto', width: '100%' }}>
+      
       <DataGrid rows={rows} columns={columns} />
-
+      <br />
+      <button style={{}}>기본버튼</button>
+      <button style={{marginLeft:"10px;",marginTop:"30px;",backgroundColor:"blue;",color:"white;",border:'0'}}>기본버튼</button>
+      <button style={{marginLeft:"10px;",backgroundColor:"white;",border:'1'}}>기본버튼</button>
+      <button style={{marginLeft:"10px;",backgroundColor:"#eee;", borderColor:'#999'}}>기본버튼</button>
+      <button style={{marginLeft:"10px;",backgroundColor:"#eee;", border:0, borderColor:'#eee',width:'100px;',height:'30px;'}}>기본버튼</button>
     </div>
   );
 }
